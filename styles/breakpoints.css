@@ -1,0 +1,24 @@
+/* Mobile */
+@media screen only and (max-width: 480px) {
+
+}
+
+/* Tablet */
+@media screen only and (max-width: 768px) {
+
+}
+
+/* Tablet Landscape */
+@media screen only and (max-width: 1024px) {
+
+}
+
+/* Laptop */
+@media screen only and (max-width: 1600px) {
+
+}
+
+/* Desktop */
+@media screen only and (min-width: 1600px) {
+
+}
