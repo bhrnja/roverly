@@ -9,6 +9,43 @@
     <link rel="stylesheet" href="./styles/breakpoints.css">
 </head>
 <body>
+
+    <!-- Navigation Bar -->
+    <nav class="desktop-nav full-width">
+        <div class="navbar flex-container site-width">
+            <div class="logo">
+                <span class="logotype">Roverly</span>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-menu-list flex-container">
+                    <li class="nav-menu-item"><a href="#">Home</a></li>
+                    <li class="nav-menu-item"><a href="#">Our&nbsp;Mission</a></li>
+                    <li class="nav-menu-item"><a href="#">The&nbsp;Team</a></li>
+                    <li class="nav-menu-item"><a href="#">Contact&nbsp;Us</a></li>
+                </ul>
+            </div>
+            <div class="mobile-icon" onclick="showMobileMenu()">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-nav flex-container">
+        <div class="mobile-close-icon" onclick="closeMobileMenu()">
+            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div class="mobile-nav-menu-list">
+            <ul class="flex-container">
+                 <li class="mobile-nav-menu-item"><a href="#">Home</a></li>
+                 <li class="mobile-nav-menu-item"><a href="#">Our&nbsp;Mission</a></li>
+                 <li class="mobile-nav-menu-item"><a href="#">The&nbsp;Team</a></li>
+                 <li class="mobile-nav-menu-item"><a href="#">Contact&nbsp;Us</a></li>
+            </ul>
+        </div>
+    </nav>
     
+    <script src="./scripts/main.js"></script>
+    <script src="https://kit.fontawesome.com/0b849c322b.js" crossorigin="anonymous"></script>
 </body>
 </html>

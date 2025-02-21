@@ -1,24 +1,49 @@
 /* Mobile */
-@media screen only and (max-width: 480px) {
-
+@media screen and (min-width: 275px) and (max-width: 480px) {
+    .site-width {
+        margin: 0 5%;
+    }
+    .nav-menu {
+        display: none;
+    }
 }
 
 /* Tablet */
-@media screen only and (max-width: 768px) {
-
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .site-width {
+        margin: 0 10%;
+    }
+    .nav-menu {
+        display: none;
+    }
 }
 
 /* Tablet Landscape */
-@media screen only and (max-width: 1024px) {
-
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .site-width {
+        margin: 0 15%;
+    }
+    .nav-menu {
+        display: none;
+    }
 }
 
 /* Laptop */
-@media screen only and (max-width: 1600px) {
-
+@media screen and (min-width: 1025px) and (max-width: 1599px) {
+    .site-width {
+        margin: 0 20%;
+    }
+    .mobile-icon {
+        display: none;
+    }
 }
 
 /* Desktop */
-@media screen only and (min-width: 1600px) {
-
+@media screen and (min-width: 1600px) {
+    .site-width {
+        margin: 0 25%;
+    }
+    .mobile-icon {
+        display: none;
+    }
 }
