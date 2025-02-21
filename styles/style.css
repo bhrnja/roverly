@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --primary-color: rgba(214, 182, 60, 1.0);
     --secondary-color: rgba(60, 211, 214, 1.0);
     --text-color: rgba(0, 0, 0, 1.0);
+    --text-secondary-color: rgba(255, 255, 255, 1.0);
 }
 
 html {
     font-size: 16px;
+    font-family: Poppins, Arial, sans-serif;
 }
 
 .site-width {
@@ -34,6 +38,7 @@ html {
     padding: 1.5rem 0;
     position: fixed;
     z-index: 10;
+    filter: drop-shadow(0 0.5rem 0.75rem rgba(0, 0, 0, 0.2));
 }
 
 .navbar {
@@ -46,7 +51,9 @@ html {
 }
 
 .logotype {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: "Luckiest Guy", sans-serif;
+    color: var(--text-secondary-color);
 }
 
 .nav-menu {
@@ -61,6 +68,14 @@ html {
 
 .nav-menu-item {
     font-size: 1.25rem;
+    color: var(--text-secondary-color);
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    transition: font-weight 100ms ease-in 50ms;
+}
+
+.nav-menu-item:hover {
+    font-weight: 800;
 }
 
 .nav-menu-item a {
@@ -70,6 +85,7 @@ html {
 .mobile-icon {
     margin-left: auto;
     font-size: 1.5rem;
+    color: var(--text-secondary-color);
 }
 
 .mobile-nav {
@@ -78,9 +94,10 @@ html {
     height: 100vh;
     background-color: var(--primary-color);
     z-index: 20;
-    /* display: none; */
+    display: none;
     justify-content: center;
     align-items: center;
+    transition: all 750ms ease-in 50ms;
 }
 
 .mobile-close-icon {
@@ -88,6 +105,7 @@ html {
     top: 5%;
     right: 10%;
     font-size: 2.5rem;
+    color: var(--text-secondary-color);
 }
 
 .mobile-nav-menu-list ul {
@@ -101,6 +119,26 @@ html {
 }
 
 .mobile-nav-menu-item {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
+    letter-spacing: -0.05rem;
+    font-weight: 700;
+    color: var(--text-secondary-color);
+    transition: font-weight 100ms ease-in 50ms;
+}
+
+.mobile-nav-menu-item:hover {
+    font-weight: 900;
+}
+
+.hero {
+    height: 60vh;
+    background-image: url("../assets/images/Hero_image_Couple_Walking_Dog.jpg");
+    background-position: center;
+    background-size: cover;
+    top: 1.5rem;
+}
+
+.hero-content {
+    
 }
