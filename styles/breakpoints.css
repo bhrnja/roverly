@@ -6,6 +6,9 @@
     .nav-menu {
         display: none;
     }
+    .hero {
+        height: 40vh;
+    }
 }
 
 /* Tablet */

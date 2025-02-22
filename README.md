@@ -6,7 +6,7 @@ The Roverly website serves as a central information hub for the Roverly dog walk
 
 - Use symantic HTML in the website build.
 - Adhere to Web Accessibility standards.
-- Create a multi-page website.
+- Create a single-page website.
 - Use a wide range of CSS properties to create the Roverly website.
 - Use this website as a learning experience to create better websites in the future.
 
