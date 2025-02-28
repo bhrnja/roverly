@@ -2,7 +2,9 @@
 
 :root {
     --primary-color: rgba(214, 182, 60, 1.0);
+    --primary-color-60: rgba(214, 182, 60, 0.6);
     --secondary-color: rgba(60, 211, 214, 1.0);
+    --secondary-color-60: rgba(60, 211, 214, 0.6);
     --text-color: rgba(0, 0, 0, 1.0);
     --text-secondary-color: rgba(255, 255, 255, 1.0);
     --drop-shadow-color:  rgba(0, 0, 0, 0.2)
@@ -62,6 +64,10 @@ h3 {
 .flex-container-item {
     flex: 1;
     min-width: 300px;
+}
+
+.gap {
+    gap: 1rem;
 }
 
 .desktop-nav {
